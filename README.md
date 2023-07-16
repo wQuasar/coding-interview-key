@@ -2,6 +2,11 @@
 
 Leetcoding chronicles: A cheat sheet of common topic-wise coding interviews with solutions.
 
+The Error sections mentions the error that I faced when running/attempting the problem, you can ignore it. Or better yet, clone the repository and keep track of your own errors so that you can be mindful of those.
+
+IOOB = Index Out of Bound error
+OBOB = Off by One Bug
+
 ---
 
 ## Arrays
@@ -13,7 +18,7 @@ LC [905](https://leetcode.com/problems/sort-array-by-parity/description/) 🟢, 
 All even numbers at start, all odd at end of array.
 [solution gist](https://gist.github.com/wQuasar/abe12e0814c1e617671d619bdb54618d)
 
-**Learnings:** Initially, had two loops, one at start and one at end of array. This is redundant. We can have just one var to track if the start numbers are even, if yes, move to next number, if not, swap with end of loop var (while decreasing the end of loop index).
+**Learnings:** Initially, had two loops, one at start and one at end of array. This is redundant. We can have just one var to track if the start numbers are even, if yes, move to next number, if not, swap with end of list var (while decreasing the end of list index).
 **Compile errors:** 2 (variable name mismatch)
 
 ### 2. Sort Colors
@@ -88,7 +93,7 @@ Return no. of prime numbers till n.
 
 **Compile errors:** 5 (3 syntax errors, 1 logical error, 1 incorrect question interpretation)
 
-**Follow up: This failts LC test set.**
+**Follow up: This fails LC test set.**
 
 ### 9. Permutations
 
