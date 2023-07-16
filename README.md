@@ -2,10 +2,12 @@
 
 Leetcoding chronicles: A cheat sheet of common topic-wise coding interviews with solutions.
 
-The Error sections mentions the error that I faced when running/attempting the problem, you can ignore it. Or better yet, clone the repository and keep track of your own errors so that you can be mindful of those.
+Important: Read the Learning section AFTER attempting the problem for at least 20 minutes. The Error sections mentions the error that I faced when running/attempting the problem, you can ignore it. Or better yet, clone the repository and keep track of your own errors so that you can be mindful of those.
 
 IOOB = Index Out of Bound error
 OBOB = Off by One Bug
+Out of mind error = I was mentally exhausted when attempting, silly mistakes were there
+incorrect solution = I can up with wrong solution 
 
 ---
 
